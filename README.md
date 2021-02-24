@@ -8,7 +8,7 @@ deveria ser única, personalizada às suas necessidades. Desenvolvemos todas as
 ferramentas e processos necessários para apoiar as universidades na verdadeira
 transformação da educação.
 
-[WebSite](https://blox.education)
+[Website](https://blox.education)
 
 [Youtube](https://www.youtube.com/channel/UCoU3Z5EheoYz3YQFRAaaeTw)
 
@@ -31,12 +31,15 @@ Os endpoints a serem usados nesse desafio são:
 
 ### Token - api/token
 
-POST em api/token, com os params:
+`POST` em `api/token`, com os params:
+
+```
 {
   "username": "EXAMPLE",
   "password": "EXAMPLE",
   "institution_id": EXAMPLE
 }
+```
 
 Retorna o token a ser utilizado nos endpoints onde há necessidade de autenticação:
 
@@ -48,7 +51,7 @@ Consultar aquivo: `token_response_example.json` nesse repositório.
 
 ### Curricular Units - api/bloxes
 
-GET em api/bloxes, com os params per e page (query string)
+`GET` em `api/bloxes`, com os params `per` e `page` (query string)
 
 Retorna a listagem de unidades curriculares a serem implmentadas.
 
