@@ -1,0 +1,277 @@
+[
+   {
+      "id":5233,
+      "title":"Gestão Integral de Transportes",
+      "subtitle":"",
+      "objectives":"{\"blocks\":[{\"key\":\"dek2k\",\"text\":\"Integrar un enfoque estratégico y operativo en el participante: brindar los más efectivos conceptos y herramientas para la operación moderna del transporte en la cadena de suministros (SCM), la cadena de valor y logística. Con una exposición práctica, casos y ejercicios se encontrarán soluciones adecuadas para: Reducir costos, mejorar el desempeño, la rentabilidad y la comunicación en la operación para dar mayor valor agregado al desempeño. Así mismo será posible adecuarse a los cambios tecnológicos, la operación y los marcos legales que impactan al transporte, el cual es posiblemente uno de los factores más importantes en la operación logística.\\n\\nBeneficios\\nEl participante: 1.Desarrollará habilidades para integrar los transportes en los eslabones de su cadena de suministro y de valor, en la operación y comercio nacionales y globales de su empresa para reducir costos y mejores resultados comerciales, operativos y financieros. 2.Conocerá las mejores prácticas en la logística, transportes y la operación nacional e internacional actuales, incluyendo las TIC (Tecnologías de Información y Comunicación) en sistemas TMS/Transportation Management Systems (Gestión integral del transporte). 3.Ubicará el lenguaje, documentos y negociar los puntos clave en la operación de los transportes nacionales e internacionales: Terrestre, aéreo, marítimo e intermodal. 4.En autotransporte, aplicará el marco legal y normativo de una manera práctica a su gestión del transporte, en particular las NOM 068 y 012-SCT. 5.Tendrá las bases para el desarrollo de interfaces globales en sistemas informáticos ERP/Gestión de la planeación de los recursos de la empresa, para una mejor coordinación proveedores ? proceso - clientes, en una operación -sin papeles-.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+      "credits":2.0,
+      "hours":96.0,
+      "status":"accepted",
+      "modality":"Presencial",
+      "url":null,
+      "legacy":false,
+      "video_url":"",
+      "code":995,
+      "tracks":[
+      ],
+      "created_at":"2019-12-17T21:02:39.339-03:00",
+      "updated_at":"2021-02-17T14:49:44.747-03:00",
+      "bibliography_basic":[
+         {
+            "id":15037,
+            "name":"Aspectos financieros clave, y tecnologías de la información (TIC), aplicadas a la gestión del autotransporte\n( 16 horas)",
+            "file_data":null,
+            "blox_id":5233,
+            "created_at":"2019-12-17T21:03:23.250-03:00",
+            "updated_at":"2019-12-17T21:03:23.250-03:00",
+            "kind":"basic",
+            "media":"Libros",
+            "description":"Aspectos financieros clave, y tecnologías de la información (TIC), aplicadas a la gestión del autotransporte\n( 16 horas)",
+            "bibliography_type_id":54,
+            "extra_fields":[
+            ]
+         }
+      ],
+      "bibliography_complementary":[
+         {
+            "id":15038,
+            "name":"Aspectos financieros clave, y tecnologías de la información (TIC), aplicadas a la gestión del autotransporte\n( 16 horas)",
+            "file_data":null,
+            "blox_id":5233,
+            "created_at":"2019-12-17T21:03:23.256-03:00",
+            "updated_at":"2019-12-17T21:03:23.256-03:00",
+            "kind":"complementary",
+            "media":"Sitio Web",
+            "description":"Aspectos financieros clave, y tecnologías de la información (TIC), aplicadas a la gestión del autotransporte\n( 16 horas)",
+            "bibliography_type_id":55,
+            "extra_fields":[
+            ]
+         }
+      ],
+      "allow_ead_content":false,
+      "modality_id":57,
+      "pages":null,
+      "total":null,
+      "program":null,
+      "pedagogic_resources":null,
+      "external_id":"995",
+      "extra_fields":[
+      ],
+      "level_id":null,
+      "teaching_approach_id":null,
+      "commercial_title":null,
+      "points":null,
+      "date_limit_edition":null,
+      "date_limit_permission":false,
+      "filling_instructions":null,
+      "responsible":{
+         "id":24145,
+         "name":"Juan Martín Maldacena",
+         "username":"professor",
+         "picture_url":null,
+         "email":"bruno@berchielli.com.br",
+         "shortbio":"",
+         "lattes_curriculum":"",
+         "linked_in":""
+      },
+      "responsibles":[
+         {
+            "id":24145,
+            "username":"professor",
+            "email":"bruno@berchielli.com.br",
+            "name":"Juan Martín Maldacena",
+            "role":"professor",
+            "institution_id":22,
+            "picture_url":null,
+            "current_course":null,
+            "shortbio":"",
+            "lattes_curriculum":"",
+            "linked_in":"",
+            "custom_links":[
+               {
+                  "id":8,
+                  "title":"Facebook",
+                  "url":"www.facebook.com/",
+                  "description":"Acessar o FB",
+                  "profiles":[
+                     "coordinator",
+                     "professor",
+                     "student"
+                  ],
+                  "is_external":true
+               }
+            ],
+            "allow_emails":true
+         }
+      ],
+      "knowledge_area":{
+         "id":122,
+         "name":"Básico",
+         "description":"Gerais são aqueles que são comuns a formação de todos os candidatos, ainda que eles incluam várias áreas.",
+         "color1":"#f82637",
+         "color2":"#d31f31",
+         "color3":"#af1c31",
+         "color4":"#d31f31",
+         "icon_url":null
+      },
+      "functional_area":{
+         "id":450,
+         "name":"Produção, Processamento e Logística",
+         "description":"Esta área funcional aborda conteúdos relacionados ao gerenciamento, transporte e armazenamento do fluxo de produtos e mercadorias dentro e fora de uma organização, bem como de topas as etapas da gestão de processos e de gestão da produção.",
+         "icon":null,
+         "icon_dark_url":"https://bloxstaging.s3.sa-east-1.amazonaws.com/store/4bb24b1d784aa707cd0973592d86a057?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIARWJ2S7DWNIGUKLV4%2F20210224%2Fsa-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20210224T121340Z\u0026X-Amz-Expires=900\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=209ca95d7f96f4d8136693f94963e6ae21ee8c447aec76acc72524e2238651d6",
+         "icon_white_url":"https://bloxstaging.s3.sa-east-1.amazonaws.com/store/be2e30e5b2e4271d22b8b7402c600f2a?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIARWJ2S7DWNIGUKLV4%2F20210224%2Fsa-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20210224T121340Z\u0026X-Amz-Expires=900\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=6aaacd43d384a90d5bf07074d58c15caf374b31556ec219c1f44c7e0652f50dc"
+      },
+      "blox_profile":{
+         "id":81,
+         "name":"Crítico",
+         "description":"",
+         "icon_url":"https://bloxstaging.s3.sa-east-1.amazonaws.com/store/865c60909675e697a5ad09c0b35ad612?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIARWJ2S7DWNIGUKLV4%2F20210224%2Fsa-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20210224T121340Z\u0026X-Amz-Expires=900\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=980703d1db1ddec4008986dea6df69ac3c4b84677beb4d6c2e581673c09c00fc",
+         "icon_dark_url":"https://bloxstaging.s3.sa-east-1.amazonaws.com/store/3971072866bd75d316c29d27feb66de1?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIARWJ2S7DWNIGUKLV4%2F20210224%2Fsa-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20210224T121340Z\u0026X-Amz-Expires=900\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=c592ae6f0f05dbd286bde10663f67f08d7df53108dcae1d87bc69858f4516c9d",
+         "material_icon":null
+      },
+      "blox_attachments":[
+         {
+            "id":15037,
+            "name":"Aspectos financieros clave, y tecnologías de la información (TIC), aplicadas a la gestión del autotransporte\n( 16 horas)",
+            "media":"Libros",
+            "kind":"basic",
+            "description":"Aspectos financieros clave, y tecnologías de la información (TIC), aplicadas a la gestión del autotransporte\n( 16 horas)",
+            "file_url":null,
+            "extra_fields":[
+            ]
+         },
+         {
+            "id":15038,
+            "name":"Aspectos financieros clave, y tecnologías de la información (TIC), aplicadas a la gestión del autotransporte\n( 16 horas)",
+            "media":"Sitio Web",
+            "kind":"complementary",
+            "description":"Aspectos financieros clave, y tecnologías de la información (TIC), aplicadas a la gestión del autotransporte\n( 16 horas)",
+            "file_url":null,
+            "extra_fields":[
+            ]
+         }
+      ],
+      "blox_classes":[
+         {
+            "id":28079,
+            "blox_id":5233,
+            "question":"Logística del transporte en la cadena de suministro ( 16 horas)",
+            "preparation":"",
+            "context":"Logística del transporte en la cadena de suministro\n( 16 horas)",
+            "order":1,
+            "blox_class_attachments_attributes":[
+            ],
+            "methodology_id":118,
+            "methodology":{
+               "id":118,
+               "institution_id":22,
+               "name":"Aprendizagem Colaborativa",
+               "created_at":"2019-12-17T19:44:35.914-03:00",
+               "updated_at":"2020-05-13T23:15:02.044-03:00",
+               "icon_data":null,
+               "external_data":{
+               },
+               "material_icon":"group"
+            },
+            "extra_fields":[
+            ]
+         },
+         {
+            "id":28080,
+            "blox_id":5233,
+            "question":"Tráfico y distribución ( 16 horas)",
+            "preparation":"",
+            "context":"Tráfico y distribución\n( 16 horas)",
+            "order":2,
+            "blox_class_attachments_attributes":[
+            ],
+            "methodology_id":120,
+            "methodology":{
+               "id":120,
+               "institution_id":22,
+               "name":"Aprendizagem Baseada em Projetos",
+               "created_at":"2019-12-17T19:46:17.267-03:00",
+               "updated_at":"2020-05-13T23:15:19.829-03:00",
+               "icon_data":null,
+               "external_data":{
+               },
+               "material_icon":"content_paste"
+            },
+            "extra_fields":[
+            ]
+         },
+         {
+            "id":28081,
+            "blox_id":5233,
+            "question":"Autotransporte, operación y marco normativo ( 16 horas)",
+            "preparation":"",
+            "context":"Autotransporte, operación y marco normativo\n( 16 horas)",
+            "order":3,
+            "blox_class_attachments_attributes":[
+            ],
+            "methodology_id":118,
+            "methodology":{
+               "id":118,
+               "institution_id":22,
+               "name":"Aprendizagem Colaborativa",
+               "created_at":"2019-12-17T19:44:35.914-03:00",
+               "updated_at":"2020-05-13T23:15:02.044-03:00",
+               "icon_data":null,
+               "external_data":{
+               },
+               "material_icon":"group"
+            },
+            "extra_fields":[
+            ]
+         },
+         {
+            "id":28082,
+            "blox_id":5233,
+            "question":"Aspectos financieros clave, y tecnologías de la información (TIC), aplicadas a la gestión del autotransporte ( 16 horas)",
+            "preparation":"",
+            "context":"Aspectos financieros clave, y tecnologías de la información (TIC), aplicadas a la gestión del autotransporte\n( 16 horas)",
+            "order":4,
+            "blox_class_attachments_attributes":[
+            ],
+            "methodology_id":119,
+            "methodology":{
+               "id":119,
+               "institution_id":22,
+               "name":"Estudos de Caso",
+               "created_at":"2019-12-17T19:45:15.056-03:00",
+               "updated_at":"2020-05-13T23:15:28.713-03:00",
+               "icon_data":null,
+               "external_data":{
+               },
+               "material_icon":"chrome_reader_mode"
+            },
+            "extra_fields":[
+            ]
+         }
+      ],
+      "competences":[
+         {
+            "id":303,
+            "name":"Transformação Digital",
+            "description":"Transformação Digital é um processo em que as empresas utilizam a tecnologia para melhorar seu desempenho, ampliar seu alcance e otimizar os resultados. Essa transformação gera uma mudança de mindset em toda a empresa, tanto internamente quanto externamente, para os clientes.",
+            "icon_url":"https://bloxstaging.s3.sa-east-1.amazonaws.com/store/711e96993abb5072db3450720ef5417a?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIARWJ2S7DWNIGUKLV4%2F20210224%2Fsa-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20210224T121340Z\u0026X-Amz-Expires=900\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=7f54633029b77233adba41c2188915344c8594c6a7e778c3f1329a8edbb6ea8c"
+         },
+         {
+            "id":301,
+            "name":"Ética e Cidadania",
+            "description":"Ética e cidadania são dois conceitos fulcrais na sociedade humana. A ética e cidadania estão relacionados com as atitudes dos indivíduos e a forma como estes interagem uns com os outros na sociedade.",
+            "icon_url":"https://bloxstaging.s3.sa-east-1.amazonaws.com/store/0334495db604c720edef7aa9eaba7a09?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIARWJ2S7DWNIGUKLV4%2F20210224%2Fsa-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20210224T121340Z\u0026X-Amz-Expires=900\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=ff49b52e292b1cdc9b6b1e1814efbb3b854cd22644e39f66fe3d00e07290dbef"
+         },
+         {
+            "id":302,
+            "name":"Criatividade",
+            "description":"Criatividade é o substantivo feminino com origem no latim creare, que indica a capacidade de criar, produzir ou inventar coisas novas.",
+            "icon_url":"https://bloxstaging.s3.sa-east-1.amazonaws.com/store/57b6ef54670fc7fad95258a30fd1ea75?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIARWJ2S7DWNIGUKLV4%2F20210224%2Fsa-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20210224T121340Z\u0026X-Amz-Expires=900\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=2222e1f0ca1e5f7fb91fee39a385b291a06fcf062a433228c20b586f28785ed7"
+         }
+      ],
+      "blox_evaluations":[
+      ],
+      "blox_template":null
+   }
+]
