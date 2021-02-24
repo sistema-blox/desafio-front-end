@@ -67,8 +67,8 @@ Consultar aquivo: `curricular_units_response_example.json` nesse repositório
 
 ### Requisitos
 
-- Deve ser possível paginar as unidades curriculares
-- Deve ser possível listar as unidades curriculares de acordo com sua situação. `blox#status`
+  - Deve ser possível paginar as unidades curriculares
+  - Deve ser possível listar as unidades curriculares de acordo com sua situação. `blox#status`
 
 ### O que esperamos
 
@@ -80,19 +80,23 @@ Consultar aquivo: `curricular_units_response_example.json` nesse repositório
 
   - Compreensão dos requisitos
   - Aplicação de conceitos de clean code, DRY, SOLID, KISS, YAGNI, etc.
-  - Compreensão do ecossistema React e seus fundamentos
+  - Compreensão do ecossistema React, React Hooks e seus fundamentos
   - Estruturação dos componentes
   - Estruturação do CSS
+  - Utilização de [Context API](https://reactjs.org/docs/context.html)
 
 ### Plus
 
- - Desenvolver utilizando [Context API](https://reactjs.org/docs/context.html)
- - Styled Components
- - Teste dos componentes
- - Web hooks
+  - Feature extra: Modal de detalhes
+
+  ![Modal](desafio-front-modal.jpg)
+
+  - Styled Components
+  - Teste dos componentes
+  - Web hooks
 
 ### Entrega do desafio
 
-- O código deve ser disponibilizado no github ou bitbucket para avaliação.
-- A aplicação deve ser disponibilizada remotamente.
-  Ex: [Heroku Deploy](https://blog.heroku.com/deploying-react-with-zero-configuration)
+  - O código deve ser disponibilizado no github ou bitbucket para avaliação.
+  - A aplicação deve ser disponibilizada remotamente.
+    Ex: [Heroku Deploy](https://blog.heroku.com/deploying-react-with-zero-configuration)
