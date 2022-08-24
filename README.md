@@ -20,46 +20,20 @@ utilizando Javascript + ReactJS.
 
 ## O Desafio
 
-Seu objetivo é implementar uma tela de listagem de unidades curriculares.
+Seu objetivo é implementar uma tela de listagem de unidades curriculares a partir da resposta JSON de uma API.
 
 ![Tela listagem de unidades curriculares](tela_listagem_unidades_curriculares.png)
 
-Para isso você deve consumir a api disponível em:
-https://api-dev.plataformablox.com.br/api-docs/index.html
 
 Os endpoints a serem usados nesse desafio são:
 
-### Token - api/token
+### Curricular Units
 
-`POST` em `api/token`, com os params:
+`curl --request GET \
+  --url 'https://app-api.blox.education/v1/public/institutions/22/blox_offerings?page=1&per=5' \
+  --header 'Accept: application/json, text/plain, */*' \`
 
-```
-{
-  "username": "EXAMPLE",
-  "password": "EXAMPLE",
-  "institution_id": EXAMPLE
-}
-```
-
-Retorna o token a ser utilizado nos endpoints onde há necessidade de autenticação:
-
-**Comando curl:**
-
-`curl -X POST "https://api-dev.plataformablox.com.br/api/token" -H "accept: */*" -H "Content-Type: application/json" -d "{\"username\":\"EXAMPLE\",\"password\":\"EXAMPLE\",\"institution_id\":EXAMPLE}"`
-
-Consultar aquivo: `token_response_example.json` nesse repositório.
-
-### Curricular Units - api/bloxes
-
-`GET` em `api/bloxes`, com os params `per` e `page` (query string)
-
-Retorna a listagem de unidades curriculares a serem implmentadas.
-
-**Comando curl:**
-
-`curl -X GET "https://api-dev.plataformablox.com.br/api/bloxes?per=1&page=1" -H "accept: */*" -H "Authorization: TOKEN_RETORNADO_NO_ENDPOINT_ANTERIOR"`
-
-Consultar aquivo: `curricular_units_response_example.json` nesse repositório
+Retorna a listagem de unidades curriculares a serem implementadas como listagem. 
 
 ### Mapeamento dos campos
 
