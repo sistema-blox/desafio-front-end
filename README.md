@@ -20,12 +20,20 @@ utilizando TypeScript + React JS.
 
 ## O Desafio
 
-Seu objetivo é implementar o front-end de duas telas.
-- Tela de Cadastro
-- Tela de Listagem de Unidades Curriculares
+Seu objetivo é implementar o front-end de três telas.
+- Tela de Cadastro (rota pública)
+- Tela de Login (rota pública)
+- Tela de Listagem de Unidades Curriculares (rota privada)
 
 A Tela de cadastro deverá conter os seguintes campos: 
-<img width="593" alt="Captura de Tela 2022-08-24 às 11 57 55" src="https://user-images.githubusercontent.com/34753722/186452005-808610ed-3bc2-4adc-9499-6ec2b9fc0630.png">
+<div>
+  <img width="593" alt="Captura de Tela 2022-08-24 às 11 57 55" src="https://user-images.githubusercontent.com/34753722/186452005-808610ed-3bc2-4adc-9499-6ec2b9fc0630.png">
+</div>
+
+A tela de login deverá conter os seguintes campos:
+<div>
+  <img width="593" alt="Captura de Tela 2022-08-24 às 11 57 55" src="https://user-images.githubusercontent.com/54423337/186509114-f346bc0a-91d8-4a6c-9b88-864015ad6346.png">
+</div>
 
 
 A Tela de Listagem de listagem de Unidades Curriculares a partir da resposta JSON de uma API.
@@ -43,6 +51,21 @@ Os endpoints a serem usados nesse desafio são:
   --data '{"institution_id":22,"name":"Jo\xe3o Maria Jos\xe9","email":"exemplo@oi.com","username":"exemplo@oi.com","password":"teste123","password_confirmation":"teste123","cpf":"87444473021","birth_date":"1992-12-19","allow_emails":false,"confirm_success_url":"https://dev.blox.education/public/22/offerings"}' `
 
 Você pode utilizar o gerador de CPF a partir deste site para testar o formulário: https://www.4devs.com.br/gerador_de_cpf
+
+### POST - Login
+Manter o `institution_id`
+
+`curl --request POST \
+  --url https://api-dev.blox.education/v2/authentication/login \
+  --header 'Content-Type: application/json' \  
+  --data '{
+	"username": "exemplo@oi.com",
+	"password": teste123,
+	"institution_id": 22
+}'`
+
+Com isso será possível obter o token JWT.
+  
 
 ### GET - Curricular Units
 
@@ -95,4 +118,4 @@ Retorna a listagem de unidades curriculares a serem implementadas como listagem.
 
   - O código deve ser disponibilizado no github para avaliação.
   - A aplicação deve ser disponibilizada remotamente.
-    Ex: [Heroku Deploy](https://blog.heroku.com/deploying-react-with-zero-configuration)
+    Ex: [Heroku Deploy](https://blog.heroku.com/deploying-react-with-zero-configuration) || [Vercel](https://vercel.com/)
