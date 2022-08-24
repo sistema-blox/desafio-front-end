@@ -20,10 +20,17 @@ utilizando Javascript + ReactJS.
 
 ## O Desafio
 
-Seu objetivo é implementar uma tela de listagem de unidades curriculares a partir da resposta JSON de uma API.
+Seu objetivo é implementar o front-end de duas telas.
+- Tela de Cadastro
+- Tela de Listagem de Unidades Curriculares
+
+A Tela de cadastro deverá conter os seguintes campos: 
+<img width="593" alt="Captura de Tela 2022-08-24 às 11 57 55" src="https://user-images.githubusercontent.com/34753722/186452005-808610ed-3bc2-4adc-9499-6ec2b9fc0630.png">
+
+
+A Tela de Listagem de listagem de Unidades Curriculares a partir da resposta JSON de uma API.
 
 ![Tela listagem de unidades curriculares](tela_listagem_unidades_curriculares.png)
-
 
 Os endpoints a serem usados nesse desafio são:
 
@@ -50,7 +57,7 @@ Retorna a listagem de unidades curriculares a serem implementadas como listagem.
  - Criar uma documentação de como rodar sua aplicação - README
  - Criar uma breve descrição da solução utilizada
 
-### Avaliação
+### Avaliação / Critérios Obrigatórios
 
   - Compreensão dos requisitos
   - Aplicação de conceitos de clean code, DRY, SOLID, KISS, YAGNI, etc.
@@ -59,14 +66,16 @@ Retorna a listagem de unidades curriculares a serem implementadas como listagem.
   - Estruturação do CSS
   - Utilização de [Context API](https://reactjs.org/docs/context.html)
 
-### Plus
+### Plus / Diferencial
+
+  - Desafio extra para os que querem ir além. Não é obrigatório o mini-desafio abaixo para sua entrega ser avaliada.
 
   - Feature extra: Modal de detalhes
 
   ![Modal](desafio-front-modal.jpg)
 
   - Styled Components
-  - Teste dos componentes
+  - Teste dos componentes (JEST)
   - Web hooks
 
 ### Entrega do desafio
