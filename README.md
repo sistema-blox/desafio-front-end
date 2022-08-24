@@ -34,7 +34,15 @@ A Tela de Listagem de listagem de Unidades Curriculares a partir da resposta JSO
 
 Os endpoints a serem usados nesse desafio são:
 
-### Curricular Units
+
+### POST - Cadastro de Usuário
+
+`curl --request POST \
+  --url https://api-dev.blox.education/auth \
+  --header 'Accept: application/json, text/plain, */*' \
+  --data '{"institution_id":22,"name":"Jo\xe3o Maria Jos\xe9","email":"exemplo@oi.com","username":"exemplo@oi.com","password":"teste123","password_confirmation":"teste123","cpf":"87444473021","birth_date":"1992-12-19","allow_emails":false,"confirm_success_url":"https://dev.blox.education/public/22/offerings"}' `
+
+### GET - Curricular Units
 
 `curl --request GET \
   --url 'https://app-api.blox.education/v1/public/institutions/22/blox_offerings?page=1&per=5' \
