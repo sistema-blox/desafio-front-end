@@ -72,7 +72,7 @@ Com isso será possível obter o token JWT.
 Esta rota não exige autenticação.
 
 `curl --request GET \
-  --url 'https://app-api.blox.education/v1/public/institutions/22/blox_offerings?page=1&per=5' \
+  --url 'https://api-dev.blox.education/v1/public/institutions/22/blox_offerings?page=1&per=5' \
   --header 'Accept: application/json, text/plain, */*' \`
 
 Retorna a listagem de unidades curriculares a serem implementadas como listagem. 
