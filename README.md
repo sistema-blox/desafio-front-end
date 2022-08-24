@@ -15,8 +15,8 @@ transformação da educação.
 # Sobre o teste
 
   Este teste é apresentado às pessoas que estão se candidatando às vagas de
-desenvolvimento para avaliar os quesitos técnicos. O código deve ser escrito
-utilizando Javascript + ReactJS.
+desenvolvimento front-end para avaliar os quesitos técnicos. O código deve ser escrito
+utilizando TypeScript + React JS.
 
 ## O Desafio
 
@@ -42,6 +42,8 @@ Os endpoints a serem usados nesse desafio são:
   --header 'Accept: application/json, text/plain, */*' \
   --data '{"institution_id":22,"name":"Jo\xe3o Maria Jos\xe9","email":"exemplo@oi.com","username":"exemplo@oi.com","password":"teste123","password_confirmation":"teste123","cpf":"87444473021","birth_date":"1992-12-19","allow_emails":false,"confirm_success_url":"https://dev.blox.education/public/22/offerings"}' `
 
+Você pode utilizar o gerador de CPF a partir deste site para testar o formulário: https://www.4devs.com.br/gerador_de_cpf
+
 ### GET - Curricular Units
 
 `curl --request GET \
@@ -55,7 +57,8 @@ Retorna a listagem de unidades curriculares a serem implementadas como listagem.
 ![Sugestão de tela](fields.png)
 
 ### Requisitos
-
+  - Utilização a lib Material UI (https://mui.com/)
+  - Validação de campos CPF e Email no formulário de cadastro
   - Deve ser possível paginar as unidades curriculares
   - Deve ser possível listar as unidades curriculares de acordo com sua situação. `blox#status`
 
@@ -65,7 +68,7 @@ Retorna a listagem de unidades curriculares a serem implementadas como listagem.
  - Criar uma documentação de como rodar sua aplicação - README
  - Criar uma breve descrição da solução utilizada
 
-### Avaliação / Critérios Obrigatórios
+### Avaliação
 
   - Compreensão dos requisitos
   - Aplicação de conceitos de clean code, DRY, SOLID, KISS, YAGNI, etc.
@@ -74,7 +77,7 @@ Retorna a listagem de unidades curriculares a serem implementadas como listagem.
   - Estruturação do CSS
   - Utilização de [Context API](https://reactjs.org/docs/context.html)
 
-### Plus / Diferencial
+### Plus / Diferencial / Opcional
 
   - Desafio extra para os que querem ir além. Não é obrigatório o mini-desafio abaixo para sua entrega ser avaliada.
 
@@ -88,6 +91,6 @@ Retorna a listagem de unidades curriculares a serem implementadas como listagem.
 
 ### Entrega do desafio
 
-  - O código deve ser disponibilizado no github ou bitbucket para avaliação.
+  - O código deve ser disponibilizado no github para avaliação.
   - A aplicação deve ser disponibilizada remotamente.
     Ex: [Heroku Deploy](https://blog.heroku.com/deploying-react-with-zero-configuration)
