@@ -46,6 +46,8 @@ Você pode utilizar o gerador de CPF a partir deste site para testar o formulár
 
 ### GET - Curricular Units
 
+Esta rota não exige autenticação.
+
 `curl --request GET \
   --url 'https://app-api.blox.education/v1/public/institutions/22/blox_offerings?page=1&per=5' \
   --header 'Accept: application/json, text/plain, */*' \`
