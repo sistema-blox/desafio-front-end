@@ -95,6 +95,11 @@ Retorna a listagem de unidades curriculares a serem implementadas como listagem.
 
 ### Avaliação
 
+Ao final do desafio, esperamos que a solução apresentada permita o seguinte fluxo:
+1. Criação de usuário
+2. Logar com o usuário recém-criado
+3. Após logar, exibir a tela de Listagem de Unidades Curriculares.
+
   - Compreensão dos requisitos
   - Aplicação de conceitos de clean code, DRY, SOLID, KISS, YAGNI, etc.
   - Compreensão do ecossistema React, React Hooks e seus fundamentos
