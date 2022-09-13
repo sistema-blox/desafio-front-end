@@ -40,6 +40,8 @@ A Tela de Listagem de listagem de Unidades Curriculares a partir da resposta JSO
 
 ![Tela listagem de unidades curriculares](tela_listagem_unidades_curriculares.png)
 
+Você pode usar o aplicativo INSOMINA ( https://insomnia.rest/download ) ou POSTMAN (https://www.postman.com/downloads/) para testar os "curls" abaixo de uma forma mais interativa.
+
 Os endpoints a serem usados nesse desafio são:
 
 
